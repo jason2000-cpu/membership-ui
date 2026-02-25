@@ -63,6 +63,40 @@ body {
     color: white;
 }
 
+.membership-section {
+    border: 2px solid black;
+}
+
+.membership-section .economy,  .membership-section .foundation {
+    border: 2px solid red;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.economy .header {
+    border-radius: 2px;
+    color: white;
+    background-color: #768aa3;
+}
+
+.economy span, .foundation span {
+    font-size: 20px;
+}
+
+.foundation .header {
+    border-radius: 2px;
+    padding:0px 5px;
+    background-color: #cfa229;
+}
+
+#foundation, #economy {
+    padding: 8px;
+    font-size: 20px;
+    background-color: #454545;
+    color: white;
+}
+
 @media (min-width: 768px){
     body {
         padding: 20px;
