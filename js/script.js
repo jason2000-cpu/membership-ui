@@ -12,6 +12,7 @@ loadComponent("memberCard", "./components/memberCard.html")
 loadComponent("stats", "./components/statisticsGrid.html");
 loadComponent("actionCard", "./components/actionCard.html");
 loadComponent("memberships", "./components/membershipCards.html")
+loadComponent("cta", "./components/cta.html");
 loadComponent("footer", "./components/footer.html");
 
 

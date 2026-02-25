@@ -63,37 +63,47 @@ body {
     color: white;
 }
 
-.membership-section {
-    border: 2px solid black;
-}
-
-.membership-section .economy,  .membership-section .foundation {
-    border: 2px solid red;
+.membership-section .header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 6px;
+    font-size: 20px;
+    /* border: 2px solid blue; */
     width: 100%;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
-.economy .header {
-    border-radius: 2px;
+.membership-card {
+    overflow: hidden;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+}
+
+#foundation, #economy {
+    background-color: #363636;
     color: white;
-    background-color: #768aa3;
-}
-
-.economy span, .foundation span {
     font-size: 20px;
 }
 
 .foundation .header {
-    border-radius: 2px;
-    padding:0px 5px;
     background-color: #cfa229;
 }
 
-#foundation, #economy {
-    padding: 8px;
-    font-size: 20px;
-    background-color: #454545;
+.economy .header {
+    background-color: #768aa3;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-section div{
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: px;
+    background-color: #cfa229;
     color: white;
 }
 
@@ -132,4 +142,13 @@ body {
          padding: 30px 16px
     }
 
+    .membership-section {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cta-section div {
+        width: 50%;
+        font-size: 20px;
+    }
 }
