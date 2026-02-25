@@ -10,6 +10,7 @@ function loadComponent(id, file) {
 
 loadComponent("memberCard", "./components/memberCard.html")
 loadComponent("stats", "./components/statisticsGrid.html");
+loadComponent("actionCard", "./components/actionCard.html");
 loadComponent("footer", "./components/footer.html");
 
 

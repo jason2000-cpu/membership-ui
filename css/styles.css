@@ -1,5 +1,6 @@
 body {
     margin: 0, auto;
+    padding: 16px;
 }
 
 
@@ -45,16 +46,30 @@ body {
 .main-card {
     background-color: #363636;
     color: white;
-    margin: 16px;
     border-radius: 1rem;
     padding: 16px 10px;
 }
 
+.action-section {
+    background-color: #363636;
+    border-radius: 0.5rem;
+    padding: 16px 10px;
+}
+
+.action-section div {
+    color:#cfa229
+}
+.action-section  {
+    color: white;
+}
+
 @media (min-width: 768px){
+    body {
+        padding: 20px;
+    }
     .main-card{
         padding:20px;
         font-size:18px;
-        margin: 20px;
     }
 
     .stat-card {
